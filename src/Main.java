@@ -51,26 +51,26 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
         //task6_prt1
-        var BoxMass_1 = 78.2;
-        var BoxMass_2 = 82.7;
-        var BoxMass_Sum = BoxMass_1 + BoxMass_2;
-        var BoxMass_Diff = BoxMass_1 - BoxMass_2;
-        System.out.println("Сумма масс сставляет:" + BoxMass_Sum);
-        System.out.println("Разница масс сставляет:"  + BoxMass_Diff);
+        var boxMassOn = 78.2;
+        var boxMassTw = 82.7;
+        var boxMassSum = boxMassOn + boxMassTw;
+        var boxMassDiff = boxMassOn - boxMassTw;
+        System.out.println("Сумма масс сставляет:" + boxMassSum);
+        System.out.println("Разница масс сставляет:"  + boxMassDiff);
 
         //task7_prt1
-        var BoxMass_Div = BoxMass_2 % BoxMass_1;
-        System.out.println("Остаток составляет:" + BoxMass_Div);
+        var boxMassDiv =boxMassTw % boxMassOn;
+        System.out.println("Остаток составляет:" + boxMassDiv);
 
         //task8_prt1
-        var TotalTime = 640;
-        var DayTime_empl = 8;
-        var TotalEmpl = TotalTime / DayTime_empl;
-        System.out.println("Всего работников компании — " + TotalEmpl + " человек");
+        var totalTime = 640;
+        var dayTimeEmpl = 8;
+        var totalEmpl = totalTime / dayTimeEmpl;
+        System.out.println("Всего работников компании — " + totalEmpl + " человек");
         //task8_prt2
-        var TotalEmpl_2 = 94;
-        var TotalTime_2 = TotalEmpl_2 * 8;
-        System.out.println("Если в компании работает " + TotalEmpl_2 +" человека, то всего " + TotalTime_2 + " часов работы может быть поделено между сотрудниками");
+        var totalEmplQ = 94;
+        var totalTimeSec = totalEmplQ * 8;
+        System.out.println("Если в компании работает " + totalEmplQ +" человека, то всего " + totalTimeSec + " часов работы может быть поделено между сотрудниками");
 
     }
 
